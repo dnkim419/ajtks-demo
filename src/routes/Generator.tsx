@@ -274,13 +274,13 @@ const CopyButtonText = styled(ButtonText)`
   color: #000000;
 `;
 
-function Images() {
+function Generator() {
   return (
     <>
       <Header>
-        <Logo src="../assets/images/logo.png"></Logo>
+        <Logo src=""></Logo>
         <Close>
-          <CloseIcon src="../assets/images/close.png"></CloseIcon>
+          <CloseIcon src=""></CloseIcon>
         </Close>
       </Header>
       <InputBox>
@@ -296,7 +296,7 @@ function Images() {
 
       <UserControls>
         <Refresh>
-          <RefreshIcon src="../assets/images/refresh.png"></RefreshIcon>
+          <RefreshIcon src=""></RefreshIcon>
         </Refresh>
         <Buttons>
           <SaveButton>
@@ -311,4 +311,4 @@ function Images() {
   );
 }
 
-export default Images;
+export default Generator;

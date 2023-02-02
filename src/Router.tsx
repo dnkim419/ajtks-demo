@@ -1,12 +1,11 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Starting from './routes/Starting';
-import Images from './routes/Images';
+import Generator from './routes/Generator';
 
 function Router() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Images />}></Route>
+        <Route path="/" element={<Generator />}></Route>
       </Routes>
     </HashRouter>
   );
